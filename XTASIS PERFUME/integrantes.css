@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'playfair_Display';
+    src: url(font/IBM_Plex_Sans\,Playfair_Display/);
+}
+/*paleta de colores*/
+:root{
+--vinotinto: #800020;
+--dorado: gold;
+--fondo-claro:white;
+--texto-oscuro:#333333;
+}
+*{
+    font-family: 'playfair_Display', serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'playfair_Display', serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--vinotinto);
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+}
+header{
+    background-color:var(--vinotinto);
+    padding: 0;
+    box-shadow: black;
+    position: relative;
+   
+    overflow: hidden;
+    top: 0%;
+    z-index: 10;
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: var(--vinotinto);
+}
+.navbar-nav .nav-link{
+    color: gold;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.navbar-toggler:hover{
+    background-color: var(--dorado);
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-item:hover{
+background-color: gold;
+color: #800020 ;
+border-radius: 5px;
+}
+.dropdown-menu{
+background-color: var(--vinotinto);
+border: 1px solid gold;
+}
+.dropdown-item{
+    color: gold ;
+    transition: all 0.3s ease;
+}
+.dropdown-item:hover{
+background-color: gold;
+color: #800020 ;
+}
+
+
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img{
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.logo-section  h1{
+    color: var(--dorado);
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.8em;}
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.presentacion {
+    text-align: center;
+}
+
+.presentacion h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: gold;
+}
+
+.presentacion p {
+    font-size: 1.1rem;
+    color: white}
+
+.integrantes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+    color: #222;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.redes {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.redes h2 {
+    margin-bottom: 20px;
+    color:gold;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: gold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: var(--dorado);
+}
+
+footer {
+    background-color: var(--vinotinto);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0;
+    font-size: 0.9rem;
+}

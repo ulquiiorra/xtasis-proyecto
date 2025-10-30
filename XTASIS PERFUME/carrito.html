@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <title>XTASIS PERFUME</title>
+</head>
+<body>
+  <div class="container-fluid">
+<div class="logo-section">
+     <a href="index.html">
+    <img src="images/Logo de perfume Xtasis en oro.png" alt="logo"></a>
+       <h1> XTASIS PERFUME</h1>
+
+</div>
+  </div>
+     <header>💎 CRUD de Lociones</header>
+
+  <main>
+    <h2>Gestión de Lociones</h2>
+
+    <form>
+      <input type="text" placeholder="Nombre de la loción" required>
+      <input type="number" placeholder="Precio" required>
+      <input type="number" placeholder="Cantidad" required>
+      <select required>
+        <option value="transferencia">Transferencia</option>
+        <option value="efectivo">Efectivo</option>
+      </select>
+      <div class="botones">
+        <button type="submit">Agregar</button>
+        <button type="refreh">Actualizar</button>
+        <button type="reset">Eliminar</button>
+      </div>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Método de Pago</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Blue Essence</td>
+          <td>$80.000</td>
+          <td>10</td>
+          <td>Transferencia</td>
+          <td class="acciones">
+            <button class="editar" >Editar</button>
+            <button class="eliminar">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Golden Touch</td>
+          <td>$95.000</td>
+          <td>5</td>
+          <td>Efectivo</td>
+          <td class="acciones">
+            <button class="editar">Editar</button>
+            <button class="eliminar">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="envio.html">
+    <button class="confirmar">CONFIRMAR COMPRA</button></a>
+  </main>
+  <section class="redes" id="redes">
+        <h2>Síguenos en nuestras redes</h2>
+        <a href="#" title="whatsapp">📱</a>
+        <a href="https://www.instagram.com/xtasis.perffume?igsh=MTdzMm5vZWRnZGdwcw==" title="Instagram">📸</a>
+        
+    </section>
+
+    <footer>
+        © 2025 Equipo Creativo. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

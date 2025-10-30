@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTASIS PERFUME</title>
+    <link rel="stylesheet" href="codigo.css">
+</head>
+
+
+
+<body>
+    <div class="container-fluid">
+<div class="logo-section">
+     <a href="index.html">
+    <img src="images/Logo de perfume Xtasis en oro.png" alt="logo"></a>
+       <h1> XTASIS PERFUME</h1>
+
+</div>
+  </div>
+  
+  <h2>CODIGO JAVACLASS</h2>
+  <pre class = "contenedor">
+        <code>
+            import java.util.Scanner;
+
+public class CondicionalAnidado {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        double pesoPaquete = 0.0;
+        double tarifa = 0.0;
+        double distancia = 0.0;
+
+        System.out.println("""
+                Bienvenido a nuestra calculadora de envíos
+                Ingrese el peso de su paquete para determinar el valor del envío
+                """);
+        pesoPaquete = sc.nextDouble();
+
+        System.out.println("Ingrese la distancia del envío");
+        distancia = sc.nextDouble();
+
+        if(pesoPaquete > 10){
+           if (distancia < 100){
+               tarifa = 20;
+           } else if (distancia <= 500) {
+               tarifa = 20;
+           }else {
+               tarifa = 50;
+           }
+        }else {
+            if(distancia < 100){
+                tarifa = 10;
+            }else {
+                tarifa = 15;
+            }
+        }
+        System.out.printf("""
+                Estos son los datos ingresados por usted:
+                Peso del paquete: %.2f%nDistancia del envío: %.2f%n
+                ------------------------------
+                La tarifa con el cálcula de su envío es:
+                %.2f%n""",pesoPaquete,distancia,tarifa);
+
+    }
+}
+        </code>
+    </pre>
+
+<main>
+    
+    <section class="redes" id="redes">
+        <h2>Síguenos en nuestras redes</h2>
+        <a href="#" title="whatsapp">📱</a>
+        <a href="https://www.instagram.com/xtasis.perffume?igsh=MTdzMm5vZWRnZGdwcw==" title="Instagram">📸</a>
+       
+    </section>
+    
+</main>   
+
+
+<footer>
+        © 2025 Equipo Creativo. Todos los derechos reservados.
+</footer>
+
+  
+</body>
+</html>

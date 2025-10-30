@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'playfair_Display';
+    src: url(font/IBM_Plex_Sans\,Playfair_Display/);
+}
+/*paleta de colores*/
+:root{
+--vinotinto: #800020;
+--dorado: gold;
+--fondo-claro:white;
+--texto-oscuro:#333333;
+}
+*{
+    font-family: 'playfair_Display', serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'playfair_Display', serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--vinotinto);
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+}
+main{
+    background-color:var(--vinotinto);
+    padding: 0;
+    box-shadow: black;
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    z-index: 10;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: var(--vinotinto);
+}
+.navbar-nav .nav-link{
+    color: gold;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.navbar-toggler:hover{
+    background-color: var(--dorado);
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-item:hover{
+background-color: gold;
+color: #800020 ;
+border-radius: 5px;
+}
+.dropdown-menu{
+background-color: var(--vinotinto);
+border: 1px solid gold;
+}
+.dropdown-item{
+    color: gold ;
+    transition: all 0.3s ease;
+}
+.dropdown-item:hover{
+background-color: gold;
+color: #800020 ;
+}
+
+
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo-section img{
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.logo-section h1{
+    color: var(--dorado);
+    margin: 0;
+    font-size: 1.8em;}
+/*.contenedor{
+    margin:10px;
+    display: block;
+    background-color: #800020;
+    color: gold;
+    padding: auto;
+    width: 100%;
+    height: auto;
+}*/
+.card{
+    padding: 10px 10px;
+   margin: 5% 5% 5% 5%;
+}
+.card h5{
+    color:gold
+}
+.card img{
+    height: 350px;
+    
+}

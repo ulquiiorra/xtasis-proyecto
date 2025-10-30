@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'playfair_Display';
+    src: url(font/IBM_Plex_Sans\,Playfair_Display/);
+}
+
+body {
+  font-family: 'playfair_display',serif;
+      background:#800020;
+      margin: 0;
+      padding: 0;
+      
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    color: #ffd700;
+}
+.logo-section img{
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.logo-section h1{
+    color: var(--dorado);
+    margin: 0;
+    font-size: 1.8em;}
+
+    header {
+      background-color: #800020;
+      color: gold;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    main {
+      max-width: 900px;
+      background-color: wheat;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: gold;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    input, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: 0.2s;
+    }
+
+    input:focus, select:focus {
+      border-color: #ffd700;
+      outline: none;
+    }
+
+    .botones {
+      grid-column: span 2;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: #800020;
+      color: gold;
+      border: white solid;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 1rem;
+      box-shadow: #ccc;
+    }
+
+    button:hover {
+      background-color: #ffd700;
+      color: #222;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color:#800020;
+      color: gold;
+      border-color: #222;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .acciones button {
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .editar {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .eliminar {
+      background-color: #e74c3c;
+      color: white;
+    }
+
+    .editar:hover {
+      background-color: #2980b9;
+    }
+
+    .eliminar:hover {
+      background-color: #c0392b;
+    }
+    .confirmar{
+      background-color: #800020;
+      color: #ffd700;
+    }
+    .confirmar:hover{
+      background-color: #ffd700;
+      color: #800020;
+    }
+.redes {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.redes h2 {
+  color: #ffd700;
+    margin-bottom: 20px;
+    
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: var(--dorado);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: #ffd700;
+}
+
+footer {
+    background-color: var(--vinotinto);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}

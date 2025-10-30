@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="facturación.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTASIS PERFUME</title>
+    <link rel="stylesheet" href="envio.css">
+</head>
+<body>
+     <div class="container-fluid">
+<div class="logo-section">
+     <a href="index.html">
+    <img src="images/Logo de perfume Xtasis en oro.png" alt="logo"></a>
+       <h1> XTASIS PERFUME</h1>
+
+</div>
+  </div>
+    <main class="contenedor">
+        <h1>Detalle de Envio</h1>
+
+        <form class="formulario">
+            
+            <label for="nombre">Nombre del cliente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Número de teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="fecha">Fecha de compra:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <div class="botones">
+                <button type="reset" class="borrar">Borrar</button>
+                <button type="submit" class="finalizar" onclick="alert('✅ ¡Compra finalizada con éxito!')">Finalizar</button>
+                <a href="index.html">
+                <button type="button" class="volver">Volver al inicio</button>
+                </a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

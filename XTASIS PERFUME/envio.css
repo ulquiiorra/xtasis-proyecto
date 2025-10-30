@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'playfair_Display';
+    src: url(font/IBM_Plex_Sans\,Playfair_Display/);
+}
+body {
+    font-family: 'playfair_Display',serif;
+    background: #800020;
+    margin: 0;
+    padding: 0;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    color: #ffd700;
+}
+.logo-section img{
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.logo-section h1{
+    color: var(--dorado);
+    margin: 0;
+    font-size: 1.8em;}
+
+.contenedor {
+    max-width: 500px;
+    margin: 50px auto;
+    background:wheat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: gold;
+    margin-bottom: 25px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 8px;
+    background-color: #800020;
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.borrar {
+    background-color: #800020;
+}
+
+.finalizar {
+    background-color: #800020;
+}
+
+.volver {
+    background-color: #800020;
+}
+
+button:hover {
+    opacity: 0.8;
+}
