@@ -82,7 +82,7 @@ color: #800020 ;
 
 #sobre-nosotros{
     background-color: var(--fondo-claro);
-    margin:50px;
+    margin:18px;
     padding: 10px ;
     border: 2px gold solid;
     width: 90%;
@@ -100,7 +100,9 @@ color: #800020 ;
 }
 .contenedor, .contenedor2{
      background-color: var(--fondo-claro);
-    margin:50px;
+     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px ;
     border: 2px gold solid;
     width: 90%;

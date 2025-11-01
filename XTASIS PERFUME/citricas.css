@@ -110,3 +110,13 @@ button:hover{
     color: gold;
     background-color: #800020;
 }
+
+
+footer {
+    background-color: var(--vinotinto);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0;
+    font-size: 0.9rem;
+}
